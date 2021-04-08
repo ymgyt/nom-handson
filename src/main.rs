@@ -1,3 +1,7 @@
+#![allow(dead_code)]
+
+mod url_parser;
+
 #[derive(Clone, Debug, PartialEq, Eq)]
 struct Element {
     name: String,
